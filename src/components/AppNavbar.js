@@ -27,11 +27,12 @@ class AppNavbar extends Component {
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <Navbar className="nav-color" color="dark" dark expand="md">
+          <NavbarBrand href="/">Robert Marsh</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
