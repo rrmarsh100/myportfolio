@@ -49,7 +49,9 @@ class AppNavbar extends Component {
                 <NavLink href="/Resume">Resume</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/rrmarsh100">GitHub</NavLink>
+                <NavLink href="https://github.com/rrmarsh100" target="blank">
+                  GitHub
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
